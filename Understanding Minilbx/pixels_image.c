@@ -45,7 +45,7 @@ int	main(void)
 	mlx_loop(mlx);
 }
 
-/* My struct is on the .h file but if you want to test it where it is
+/* My struct is on the .h file but if you want to test it, here it is
 
 typedef struct s_data
 {
