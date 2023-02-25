@@ -1,0 +1,8 @@
+no args:				no leaks
+checking ber:			no leaks
+empty file (get_y):		no leaks
+rectangular:			no leaks
+surrounded walls:		no leaks
+extra elements: 		no leaks
+no exit or player:		no leaks
+

@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/13 15:41:20 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/20 17:37:08 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/02/21 15:19:39 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ void	move_player(t_game *game, char dir, int pos, int keycode)
 		game->map_player_x += pos;
 	}
 	game->n_movs += 1;
-	ft_printf("Moviments:%i\n", game->n_movs);
+	ft_printf("Movements:%i\n", game->n_movs);
 	check_colls(game);
 	put_player(game, keycode);
 }

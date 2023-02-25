@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 13:32:52 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/09 15:10:32 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/02/23 12:09:28 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,6 @@ int	check_ent(t_game *game, int y, int x)
 		return (3);
 	else if (game->map_area[y][x] == 'E')
 		return (4);
-	else if (game->map_area[y][x] == 'K')
-		return (5);
 	else
-		return (6);
+		return (5);
 }

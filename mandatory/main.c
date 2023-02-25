@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 14:44:23 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/20 17:34:25 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/02/22 15:52:22 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,9 +57,6 @@ void	map_treatment(t_game *game)
 	check_elements(game);
 	ft_printf("\t{Checking valid path}\n");
 	check_path(game);
-	ft_printf("⚠ To do!\n");
-	ft_printf("⚠ Check valid path!\n");
-	ft_printf("⚠ Change the messages to Error and a message of choice!\n");
 }
 
 void	start_game(t_game *game)

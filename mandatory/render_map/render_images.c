@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 16:53:39 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/20 16:53:58 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/02/23 12:09:42 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	render_images(t_game *game)
 		while (x < game->map_x)
 		{
 			element = check_ent(game, y, x);
-			if (element == 6)
+			if (element == 5)
 				send_error("⚠ Error on the check_ent file\n", game);
 			put_xpm(game, element, y, x);
 			x++;
