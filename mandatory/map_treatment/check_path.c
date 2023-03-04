@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 13:32:46 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/16 14:44:39 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:13:24 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,17 +59,4 @@ void	check_path(t_game *game)
 	map_malloc_path(game);
 	if (!floodfill(game))
 		send_error("✗ Invalid path on the map\n", game);
-	else
-		ft_printf ("✔ Valid path to on the map\n");
-	while (i < game->map_y)
-	{
-		j = 0;
-		while (j < game->map_x)
-		{
-			ft_printf("%c", game->map_area_floodfill[i][j]);
-			j++;
-		}
-		i++;
-		ft_printf("\n");
-	}
 }

@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 17:12:40 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/20 14:49:36 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:14:00 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,4 @@ void	get_x(t_game *game)
 
 	x = game->map_area[0];
 	game->map_x = ft_strlen(x);
-	ft_printf ("\t{Number of lines}\n");
-	ft_printf ("%i\n", game->map_y);
-	ft_printf ("\t{Number of columns}\n");
-	ft_printf ("%i\n", game->map_x);
 }

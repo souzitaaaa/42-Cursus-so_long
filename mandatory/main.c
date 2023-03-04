@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 14:44:23 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/22 15:52:22 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:14:51 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ void	init_game(t_game *game)
 
 void	check_args(int argc, char **argv)
 {
-	ft_printf("[Checking if the arguments are valid]\n\n");
 	if (argc != 2)
 	{
 		ft_printf("✗ Wrong number of arguments\n");
@@ -42,20 +41,16 @@ void	check_args(int argc, char **argv)
 		ft_printf("✗ No map inserted\n");
 		exit (EXIT_FAILURE);
 	}
-	ft_printf("✔ All the arguments are valid\n\n");
 }
 
 void	map_treatment(t_game *game)
 {
-	ft_printf("[Treatment of the map]\n\n");
-	ft_printf("\t{Map extension name} \n  %s\n", game->map);
 	check_ber(game);
 	get_y(game);
 	map_malloc(game);
 	check_rect(game);
 	check_walls(game);
 	check_elements(game);
-	ft_printf("\t{Checking valid path}\n");
 	check_path(game);
 }
 

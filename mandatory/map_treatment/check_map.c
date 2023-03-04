@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 01:18:08 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/16 14:44:23 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:13:14 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ void	check_walls(t_game *game)
 	columns = game->map_x;
 	i = 0;
 	j = 0;
-	ft_printf ("\t{Checking if the map is closed}\n");
 	while (j < columns)
 	{
 		if (game->map_area[i][j] != '1' || game->map_area[rows - 1][j] != '1')
@@ -37,5 +36,4 @@ void	check_walls(t_game *game)
 			send_error("✗ The map is not surrounded walls\n", game);
 		i++;
 	}
-	ft_printf ("✔ The map is surrounded by walls\n");
 }

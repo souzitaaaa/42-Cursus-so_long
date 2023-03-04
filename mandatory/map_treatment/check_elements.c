@@ -6,7 +6,7 @@
 /*   By: dinoguei <dinoguei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 05:42:05 by dinoguei          #+#    #+#             */
-/*   Updated: 2023/02/20 16:01:00 by dinoguei         ###   ########.fr       */
+/*   Updated: 2023/03/03 14:12:36 by dinoguei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	check_error(t_game *game)
 		send_error("✗ No exit or no player\n", game);
 	if (game->map_exit > 1 || game->map_player > 1)
 		send_error("✗ More than 1 exit or player\n", game);
+	if (game->map_collectable < 1)
+		send_error("✗ No collectable found", game);
 }
 
 void	check_elements(t_game *game)
