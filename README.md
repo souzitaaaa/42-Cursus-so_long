@@ -1,37 +1,41 @@
-<h1 align="center">
-42-Cursus-so_long
-</h1>
 <p align="center">
-This is a 42 School project that consists in making a simple 2D game, using the MiniLibx library
-</p>
-<p align="center">
-The mandatory part simply asked us a game that has a player, a exit, some collectables and a movement counter in the terminal
-</p>
-<p align="center">
-The bonus part asked us some animation sprites, a movement display directly on the screen and some enemies
+  <img src="https://github.com/jotavare/jotavare/blob/main/42/banner/42_banner_so_long.png">
 </p>
 
-<h2 align="center">
-Info
-</h2>
 <p align="center">
-Since we had the freedom to choose the game sprites I decided to made game where a Hatsune Miku, needs to collect all the microphones before exiting throught the television, for the bonus I added Rin and Teto as enemies for our player
-Being this the first game I had ever made it and due to the hype I was during the process it seemed natural to me to make it about something I like
+	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/evaluated-24%20%2F%2011%20%2F%202022-success?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/github/languages/top/jotavare/libft?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/github/last-commit/jotavare/libft?color=%2312bab9&style=flat-square" />
 </p>
-<h2 align="center">
-Game Rules
-</h2>
+
 <p align="center">
-For the game begin, the map must follow a set of rules:
+	<a href="#about">About</a> •
+	<a href="#how-to-use">How to use</a> •
+	<a href="#mandatory">Mandatory</a> •
+	<a href="#bonus">Bonus</a> •
+	<a href="#disclaimer">Disclaimer</a> •
+	<a href="#testers">Testers</a> •
+	<a href="#license">License</a>
 </p>
+
+## ABOUT
+This project is for 42 School and involves creating a simple 2D game using the MiniLibx library.</br>
+The mandatory requirements for the game include a player, an exit, collectibles, and a movement counter displayed in the terminal.</br>
+The bonus requirements for the game include adding animation sprites, displaying movement directly on the screen, and including enemy characters.</br>
+
+For my game project, I had the freedom to choose the game sprites, so I decided to create a game featuring Hatsune Miku. In the game, the player must collect all the microphones and exit through the television. As a bonus, I added Rin and Teto as enemies for the player.</br>
+Since this was my first game project and I was really excited about it, I wanted to make it about something I enjoy.</br>
+
+## GAME RULES
+#### For the game begin, the map must follow a set of rules:
 
 * The executable ``so_long`` will only receive a map as a argument, and the map must be a ``.ber`` filetype
   >A .ber file is a binary encoding rules file, which is a type of file used to encode data in a binary format for transmission or storage. The term "BER" stands for Basic Encoding Rules, which is a set of rules for encoding abstract data types in a way that is machine-readable and platform-independent.
 
 * The map on the mandatory part can only contain with characters: ``P`` *(player)*, ``E`` *(exit)*, ``C`` *(collectable)*, ``0`` *(floor)* and ``1`` *(wall)*, but on the bonus part I add a ``R`` and a ``T``, to symbolize the enemies
-<p align="center">
 Example of a valid map:
-</p>
 
 <div align="center">
 
@@ -47,10 +51,7 @@ Example of a valid map:
 
 * And have a valid path to the exit in a way you can pick up all the collectables before exiting
 
-<h2 align="center">
-Code synopsis
-</h2>
-
+## CODE SYNOPSIS
 * ***Reading and checking the map***
 
 In this part is where I made all the verifications on the map to see if passes all of the rules listed above, storing
@@ -75,9 +76,27 @@ textures and just changing the texture on the behind and put the new texture on 
 
 Not sure if it's done correctly
 
-<h2 align="center">
-Gameplay
-</h2>
+## Gameplay
 
 Looking for a way to make the screenrecorder into gif without losing the quality
 
+## DISCLAIMER
+At 42 School, it is expected that almost every project is written in accordance with the Norm, which is the coding standard of the school.
+
+```bash
+- No for, do while, switch, case or goto are allowed
+- No more than 25 lines per function and 5 functions per file
+- No assigns and declarations in the same line (unless static)
+- No more than 5 variables in 1 function
+- ...
+```
+
+<a href="https://github.com/jotavare/jotavare/blob/main/42/pdf/en_norm.pdf">Click here</a> for more information on 42 norms.
+
+## TESTERS
+* [so_long map validator](https://github.com/Nuno-Jesus/so_long_map_validator)
+
+## LICENSE
+<p>
+This work is published under the terms of <a href="https://github.com/jotavare/jotavare/blob/main/LICENSE">42 Unlicense</a>.
+</p>
