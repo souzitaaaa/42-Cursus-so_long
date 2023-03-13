@@ -5,9 +5,9 @@
 <p align="center">
 	<img src="https://img.shields.io/badge/status-finished-success?color=%2312bab9&style=flat-square" />
 	<img src="https://img.shields.io/badge/evaluated-24%20%2F%2011%20%2F%202022-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/badge/score-125%20%2F%20100-success?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/languages/top/jotavare/libft?color=%2312bab9&style=flat-square" />
-	<img src="https://img.shields.io/github/last-commit/jotavare/libft?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/badge/score-100%20%2F%20100-success?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/github/languages/top/souzitaaaa/42-Cursus-so_long?color=%2312bab9&style=flat-square" />
+	<img src="https://img.shields.io/github/last-commit/souzitaaaa/42-Cursus-so_long?color=%2312bab9&style=flat-square" />
 </p>
 
 <p align="center">
